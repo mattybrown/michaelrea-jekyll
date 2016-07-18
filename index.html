@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="row center">
+  <div class="col s12 m12">
+    <h2>Sell your house with Michael Rea</h2>
+    <p class="grey-text text-darken-4">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis ultricies scelerisque. Proin turpis quam, dapibus id interdum eget, auctor eu mauris. Integer nisi nisl, imperdiet a ullamcorper vel, auctor a risus. Nullam lorem odio, cursus non enim facilisis, bibendum dictum enim.
+    </p>
+    <div class="row center">
+      <a class="btn-large indigo darken-4 waves-effect waves-light" href="#">Request Appraisal</a>
+      <a class="btn-large indigo darken-4 waves-effect waves-light" href="#">Buyer Alert</a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col s12 m4">
+    <h1 class="center-align indigo-text text-darken-4">
+      <i class="fa fa-briefcase"></i>
+    </h1>
+    <h5 class="grey-text text-darken-4 center-align">Determination</h5>
+    <p class="grey-text text-darken-4 center-align">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis ultricies scelerisque. Proin turpis quam, dapibus id interdum eget, auctor eu mauris. Integer nisi nisl, imperdiet a ullamcorper vel, auctor a risus. Nullam lorem odio, cursus non enim facilisis, bibendum dictum enim.
+    </p>
+  </div>
+  <div class="col s12 m4">
+    <h1 class="center-align indigo-text text-darken-4">
+      <i class="fa fa-heart"></i>
+    </h1>
+    <h5 class="grey-text text-darken-4 center-align">Community</h5>
+    <p class="grey-text text-darken-4 center-align">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis ultricies scelerisque. Proin turpis quam, dapibus id interdum eget, auctor eu mauris. Integer nisi nisl, imperdiet a ullamcorper vel, auctor a risus. Nullam lorem odio, cursus non enim facilisis, bibendum dictum enim.
+    </p>
+  </div>
+  <div class="col s12 m4">
+    <h1 class="center-align indigo-text text-darken-4">
+      <i class="fa fa-balance-scale"></i>
+    </h1>
+    <h5 class="grey-text text-darken-4 center-align">Reputation</h5>
+    <p class="grey-text text-darken-4 center-align">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis ultricies scelerisque. Proin turpis quam, dapibus id interdum eget, auctor eu mauris. Integer nisi nisl, imperdiet a ullamcorper vel, auctor a risus. Nullam lorem odio, cursus non enim facilisis, bibendum dictum enim.
+    </p>
+  </div>
+</div>
+<div class="divider"></div>
+
+<div class="row">
+  <div class="col s12 m4">
+    <h3>News</h3>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+          <h5>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h5>
+        </li>
+      {% endfor %}
+    </ul>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+  <div class="col s12 m8">
+    <h3>Testimonials</h3>
+    <blockquote>
+      Michael sold our rental property within 6 DAYS!!!!
+      Highly recommend Michael to list your property, he will bend over backwards to get you a good result.
+      He makes himself available 24/7 and is very committed to his clients.
+      Thanks for the quick and stress free sale Michael.<br>
+      - Tara Falvey
+    </blockquote>
+    <blockquote>
+      Michael managed to get us a premium price for our house with absolutely no hassle!! Would highly recommend him and will use him again for any future sales and purchase we do!<br>
+      - Ruth Thompson
+    </blockquote>
+  </div>
+</div>

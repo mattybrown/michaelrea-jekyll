@@ -1,0 +1,22 @@
+.google-map{
+  position:relative;
+  padding-bottom:30%;
+  height:240px;
+  overflow:hidden;
+  iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100% !important;
+    height:100% !important;
+    pointer-events:none;
+  }
+}
+.brand-logo{
+  background: #fff;
+  padding:0 10px !important;
+}
+.logo{
+  vertical-align: middle;
+  width:140px;
+}

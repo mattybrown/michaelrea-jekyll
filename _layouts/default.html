@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include nav.html %}
+
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="https://scontent.fakl1-1.fna.fbcdn.net/v/t1.0-9/12301479_1052632618080275_95486836337281521_n.jpg?oh=440f154456d97e645e348a1504f6e34c&oe=5835D111">
+          <div class="caption center-align">
+            <h3>Time to upsize?</h3>
+          </div>
+        </li>
+        <li>
+          <img src="https://scontent.fakl1-1.fna.fbcdn.net/v/t1.0-9/11218205_1010420602301477_3403814420994583641_n.jpg?oh=882e853bc38ae60e69d0e6cf591171e3&oe=58349650">
+          <div class="caption center-align">
+            <h3>Time to upsize?</h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+        {{ content }}
+    </div>
+
+    <div class="google-map">
+      <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2987.6012219850536!2d173.95432261568567!3d-41.512915779252886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d391499d1ad3735%3A0x8deb18511784c45d!2sFirst+National+Real+Estate!5e0!3m2!1sen!2snz!4v1468799384684" frameborder="0" style="border:0"></iframe>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
