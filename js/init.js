@@ -6,4 +6,9 @@ $(document).ready(function(){
   $('.google-map').mouseleave(function() {
     $('.google-map iframe').css("pointer-events", "none");
   });
+  $('.datepicker').pickadate({
+    selectMonths: true,
+    selectYears:1
+  });
+  $('select').material_select();
 });
