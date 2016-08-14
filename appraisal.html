@@ -35,7 +35,7 @@ permalink: /appraisal/
       <div class="row">
         <div class="input-field col s6">
           <textarea id="message" name="message" class="materialize-textarea"></textarea>
-          <label for="message">Address</label>
+          <label for="address">Address</label>
         </div>
         <div class="input-field col s6">
           <input type="date" class="datepicker" name="preferred-date" id="preferred-date">
@@ -46,6 +46,7 @@ permalink: /appraisal/
         <div class="input-field col s12">
           <input type="text" name="_gotcha" style="display:none;">
           <input type="hidden" name="_subject" value="An appraisal request from your website">
+          <input type="hidden" name="_next" value="{{ site.url }}/thankyou" />
           <button type="submit" class="btn indigo darken-4"><i class="fa fa-send"></i> Send</button>
         </div>
       </div>
