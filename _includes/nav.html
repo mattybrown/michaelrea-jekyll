@@ -11,12 +11,12 @@
     </a>
     <ul class="right hide-on-med-and-down">
       {% for my_page in site.pages %}
-        {% if my_page.title and my_page.title != thankyou %}
-        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+        {% if my_page.title and my_page.title != "Thank you!" %}
+        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}#title">{{ my_page.title }}</a></li>
         {% endif %}
       {% endfor %}
       <li><a href="tel:+64273643914"><i class="fa fa-phone"></i> 027 364 3914</a></li>
-      <li><a href="https://www.facebook.com/michaelrea.msfn"><i class="fa fa-facebook-square"></i></a></li>
+      <li><a target="_blank" href="https://www.facebook.com/michaelrea.msfn"><i class="fa fa-facebook-square"></i></a></li>
     </ul>
     <ul class="side-nav" id="nav-mobile">
       {% for my_page in site.pages %}
