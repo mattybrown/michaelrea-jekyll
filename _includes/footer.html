@@ -15,7 +15,7 @@
         <h5 class="white-text">Links</h5>
         <ul>
           {% for my_page in site.pages %}
-            {% if my_page.title %}
+            {% if my_page.title and my_page.title != "Thank you!" %}
             <li><a class="white-text" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
             {% endif %}
           {% endfor %}
