@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /about/
+description: "Michael puts a massive effort into ensuring any home he is selling has first class marketing to attract a premium sale price. Find out more here!"
 ---
 
 Marketing a home today requires a balance of creativity and determination to achieve the clients wishes as well as the selling skills required to successfully complete the sale process. Michael Rea has many attributes which I believe make him stand out from the crowd when it comes to entrusting your home with an Agent to sell. Michael is always upfront and honest in his assessments and has the ability to deliver what he promises. It is a fact that in today’s world some people promise the earth to gain your business but then simply don’t deliver however I absolutely guarantee that this will not be the case with Michael and there are past client references that confirm this.
